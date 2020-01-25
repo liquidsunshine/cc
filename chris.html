@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Alice's Boston Red Sox Fan Club">
+    <meta name="author" content="Sidney Fernandes">
+    <meta name="generator" content="Microsoft Dynamics 365.25">
+    <title>Christopher John Paul Casale</title>
+
+    <!-- CSS -->
+    <!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"-->
+    <!--          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+    <link rel="stylesheet" type="text/css" href="css/demo.css"/>
+    <link rel="stylesheet" type="text/css" href="css/set2.css"/>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.5/jsrender.min.js"></script>
+
+    <!-- Favicons -->
+    <link rel="icon" href="favicon.ico" sizes="32x32">
+
+
+</head>
+<body class="py-4">
+<div class="container">
+
+    <div class="grid" id="tileGrid">
+    </div>
+
+</div>
+
+<script id="figuresTemplate" type="text/x-jsrender">
+    {{for tiles}}
+        <figure class="effect-apollo">
+            <img src="{{:image}}" alt="stock background image"/>
+            <figcaption>
+                <a href="{{:url}}">&nbsp;</a>
+                <p>{{:quote}}</p>
+            </figcaption>
+        </figure>
+    {{/for}}
+</script>
+
+<script src="js/obfuscated.js"></script>
+
+
+</body>
+</html>
