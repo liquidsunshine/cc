@@ -14,11 +14,13 @@
 .clearfix:after { clear: both; }
 
 body {
-	background: #2f3238;
+	background-color: #daf21d;
+	background-image: url('../img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #fff;
 	font-weight: 400;
 	font-size: 1em;
-	font-family: 'Raleway', Arial, sans-serif;
 }
 
 a {

@@ -38,7 +38,9 @@
 	padding: 2em;
 	color: #fff;
 	text-transform: uppercase;
-	font-size: 1.25em;
+	font-size: 1.8em;
+	/*text-shadow: 0 0 4px #000000;*/
+	font-weight: bold;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -730,7 +732,6 @@ figure.effect-apollo p {
 	bottom: 0;
 	margin: 3em;
 	padding: 0 1em;
-	max-width: 150px;
 	border-right: 4px solid #fff;
 	text-align: right;
 	opacity: 0;
