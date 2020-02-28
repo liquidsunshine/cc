@@ -1302,6 +1302,7 @@ figure.effect-duke:hover p {
 #dialogValentine video {
 	height: 100%;
 	width: auto;
+	max-width: 100%;
 }
 
 #dialogValentine p {
