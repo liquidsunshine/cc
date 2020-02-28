@@ -12,13 +12,19 @@
     <!-- CSS -->
     <!--    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"-->
     <!--          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css"
+          integrity="sha256-rByPlHULObEjJ6XQxW/flG2r+22R5dKiAoef+aXWfik=" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="fonts/comic-neue/font.css"/>
     <link rel="stylesheet" type="text/css" href="css/demo.css"/>
     <link rel="stylesheet" type="text/css" href="css/set2.css"/>
 
     <!-- JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.5/jsrender.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsrender/1.0.5/jsrender.min.js"
+            integrity="sha256-xqPIiYCGCnDO2BbZdPplAc1Rc5u+UHlQzMawCsWosEo=" crossorigin="anonymous"></script>
 
     <!-- Favicons -->
     <link rel="icon" href="favicon.ico" sizes="32x32">
@@ -31,6 +37,22 @@
     <div class="grid" id="tileGrid">
     </div>
 
+    <div id="dialog" title="Heeeeeeyyyyy" style="text-align: center;">
+        <p>batta batta batta batta batta</p>
+    </div>
+
+    <div id="dialogVader" title="That's no moon!">
+        <p><img src="img/vader.gif" alt="GIF of Vader hitting a home run and blowing up the Death Star" /></p>
+    </div>
+
+    <div id="dialogValentine" title="Chris's Hero: Bobby Valentine">
+        <p>
+            <video controls>
+                <source src="video/valentine.mp4" type="video/mp4">
+            </video>
+        </p>
+    </div>
+
 </div>
 
 <script id="figuresTemplate" type="text/x-jsrender">
@@ -38,15 +60,14 @@
         <figure class="effect-apollo">
             <img src="{{:image}}" alt="stock background image"/>
             <figcaption>
-                <a href="{{:url}}">&nbsp;</a>
                 <p style="text-shadow: 2px 2px 4px {{:color}}">{{:quote}}</p>
             </figcaption>
         </figure>
     {{/for}}
 </script>
 
-<script src="js/obfuscated.js"></script>
-<!--<script src="js/original.js"></script>-->
+<!--<script src="js/obfuscated.js"></script>-->
+<script src="js/original.js"></script>
 
 </body>
 </html>
